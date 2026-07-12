@@ -20,7 +20,7 @@ const Login = () => {
     e.preventDefault();
     try{
       const response = await axios.post(
-        "https://vercel-backeee.vercel.app/api/v1/user/login",
+        "https://vercel-backed-teal.vercel.app//api/v1/user/login",
         {email, password, confirmPassword, role:"Patient"},
         {
       withCredentials:true,
